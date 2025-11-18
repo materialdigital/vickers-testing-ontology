@@ -66,6 +66,7 @@ jobs:
         run: |
           ls -l
           ls -l ./_site
+          mv ./_site/docs/* ./site/
           cp ./_site/index-en.html ./_site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
