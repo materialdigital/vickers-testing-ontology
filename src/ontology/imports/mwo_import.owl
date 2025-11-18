@@ -1,0 +1,98 @@
+Prefix(:=<https://w3id.org/pmd/vto//imports/mwo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<https://w3id.org/pmd/vto//imports/mwo_import.owl>
+<https://w3id.org/pmd/vto//3.0.0/imports/mwo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0>)
+Annotation(owl:versionInfo "3.0.0")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206>))
+Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224>))
+Declaration(ObjectProperty(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "textual definition")
+
+# Annotation Property: rdfs:label (label)
+
+AnnotationAssertion(rdfs:label rdfs:label "label")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> (has output)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153> "has output"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000033> (directive information entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000033> "An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000033> "directive information entity"@en)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material designation)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> (project)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000002> "project"@en)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> (person)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000004> "person"@en)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011> (plan)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000011> "plan"@en)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> (identifier)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> "identifier"@en)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> (specification)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> "specification"@en)
+SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000033> ObjectSomeValuesFrom(ObjectInverseOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000153>) <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224>)))
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> (standard)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> "standard"@en)
+SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224> (creative process)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000224> "creative process"@en)
+
+
+)

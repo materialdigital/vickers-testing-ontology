@@ -21,9 +21,9 @@ import_group:
   - id: pmdco
     mirror_from: https://materialdigital.github.io/core-ontology/ontology.owl
     module_type: mirror
-    - id: mwo
-      mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl
-      module_type: custom
+  - id: mwo
+    mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl
+    #module_type: custom
 
 namespaces:
   - https://w3id.org/pmd/ao/vto/
