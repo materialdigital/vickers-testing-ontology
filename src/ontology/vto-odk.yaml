@@ -1,9 +1,9 @@
 id: vto
 title: "Vickers Testing Ontology"
-github_org: HosseinBeygiNasrabadi
+github_org: materialdigital
 git_main_branch: main
-repo: Vickers-testing-application-ontology
-uribase: https://w3id.org/pmd/ao
+repo: vickers-testing-ontology
+uribase: https://w3id.org/pmd
 uribase_suffix: vto
 
 release_artefacts:
@@ -24,6 +24,7 @@ import_group:
   - id: mwo
     mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl
     #module_type: custom
-
+  - id: iao
+    module_type: custom
 namespaces:
   - https://w3id.org/pmd/ao/vto/

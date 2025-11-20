@@ -21,7 +21,7 @@ $(IMPORTDIR)/mwo_import.owl: $(MIRRORDIR)/mwo.owl $(IMPORTDIR)/mwo_terms.txt \
 # lets add some additional annotations to the release artefacts
 #############################################################################
 
-CITATION="'Hossein Beygi Nasrabadi, ...... TODO. NFDIcore Ontology. Revision: v$(VERSION). Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/$(VERSION)'"
+CITATION="'Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v$(VERSION). Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/$(VERSION)'"
 
 ALL_ANNOTATIONS=--ontology-iri https://w3id.org/pmd/vto/ -V https://w3id.org/pmd/vto/$(VERSION) \
 	--annotation http://purl.org/dc/terms/created "$(TODAY)" \

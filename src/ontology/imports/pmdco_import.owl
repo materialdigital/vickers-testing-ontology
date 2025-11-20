@@ -1,4 +1,4 @@
-Prefix(:=<https://w3id.org/pmd/vto//imports/pmdco_import.owl#>)
+Prefix(:=<https://w3id.org/pmd/ao/vto/imports/pmdco_import.owl#>)
 Prefix(co:=<https://w3id.org/pmd/co/>)
 Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
@@ -13,10 +13,10 @@ Prefix(swrlb:=<http://www.w3.org/2003/11/swrlb#>)
 Prefix(terms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<https://w3id.org/pmd/vto//imports/pmdco_import.owl>
-<https://w3id.org/pmd/vto//3.0.0/imports/pmdco_import.owl>
+Ontology(<https://w3id.org/pmd/ao/vto/imports/pmdco_import.owl>
+<https://w3id.org/pmd/ao/vto/releases/2025-11-20/imports/pmdco_import.owl>
 Annotation(dc:source <https://w3id.org/pmd/co/3.0.0-alpha4>)
-Annotation(owl:versionInfo "3.0.0")
+Annotation(owl:versionInfo "2025-11-20")
 
 Declaration(Class(obo:BFO_0000001))
 Declaration(Class(obo:BFO_0000002))
@@ -3563,7 +3563,7 @@ AnnotationAssertion(skos:example co:PMD_0000053 "The process of melting aluminum
 SubClassOf(co:PMD_0000053 co:PMD_0000833)
 SubClassOf(co:PMD_0000053 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:OBI_0000293 obo:BFO_0000040) ObjectSomeValuesFrom(obo:OBI_0000299 co:PMD_0020139)))
 
-# Class: co:PMD_0000054 (Heizfunktion)
+# Class: co:PMD_0000054 (heating function)
 
 AnnotationAssertion(rdfs:label co:PMD_0000054 "Heizfunktion"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000054 "heating function"@en)
@@ -5191,7 +5191,7 @@ AnnotationAssertion(skos:definition co:PMD_0000799 "A device used for analyzing 
 AnnotationAssertion(skos:definition co:PMD_0000799 "Ein Gerät zur Analyse von Ionen in einer Probe zur Bestimmung ihrer Zusammensetzung und Konzentration."@de)
 SubClassOf(co:PMD_0000799 co:PMD_0000602)
 
-# Class: co:PMD_0000800 (Ionenspektroskopie)
+# Class: co:PMD_0000800 (ion spectroscopy)
 
 AnnotationAssertion(rdfs:label co:PMD_0000800 "Ionenspektroskopie"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000800 "ion spectroscopy"@en)
@@ -5255,7 +5255,7 @@ AnnotationAssertion(skos:definition co:PMD_0000807 "Ein Fügeverfahren, bei dem 
 AnnotationAssertion(skos:example co:PMD_0000807 "Pouring, Embedding, Encasing"@en)
 SubClassOf(co:PMD_0000807 co:PMD_0000806)
 
-# Class: co:PMD_0000808 (joining by shaping)
+# Class: co:PMD_0000808 (Fügen Durch Umformen)
 
 AnnotationAssertion(obo:IAO_0000119 co:PMD_0000808 "Official definition can be found in: DIN 8593-5"@en)
 AnnotationAssertion(obo:IAO_0000119 co:PMD_0000808 "Offizielle Definition findet man in: DIN 8593-5"@de)
@@ -5874,7 +5874,7 @@ AnnotationAssertion(skos:definition co:PMD_0000899 "Ein Herstellungsprozess, der
 AnnotationAssertion(skos:example co:PMD_0000899 "Casting, Sintering"@en)
 SubClassOf(co:PMD_0000899 co:PMD_0000833)
 
-# Class: co:PMD_0000900 (Urformen Durch Additive Fertigung)
+# Class: co:PMD_0000900 (primary shaping by additive manufacturing)
 
 AnnotationAssertion(rdfs:label co:PMD_0000900 "Urformen Durch Additive Fertigung"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000900 "primary shaping by additive manufacturing"@en)
@@ -6213,7 +6213,7 @@ AnnotationAssertion(skos:definition co:PMD_0000942 "The specific surface area is
 AnnotationAssertion(co:PMD_0000060 co:PMD_0000942 "true"^^xsd:boolean)
 SubClassOf(co:PMD_0000942 co:PMD_0020131)
 
-# Class: co:PMD_0000944 (Spektrometer)
+# Class: co:PMD_0000944 (spectrometer)
 
 AnnotationAssertion(rdfs:label co:PMD_0000944 "Spektrometer"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000944 "spectrometer"@en)
@@ -6300,7 +6300,7 @@ AnnotationAssertion(skos:definition co:PMD_0000956 "Ein Simulationsprozess, der 
 AnnotationAssertion(skos:example co:PMD_0000956 "Optimizing the atomic structure of a catalyst to enhance its performance."@en)
 SubClassOf(co:PMD_0000956 co:PMD_0000933)
 
-# Class: co:PMD_0000957 (Struktur Eigenschaften Analyseverfahren)
+# Class: co:PMD_0000957 (structural property analyzing process)
 
 AnnotationAssertion(rdfs:label co:PMD_0000957 "Struktur Eigenschaften Analyseverfahren"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000957 "structural property analyzing process"@en)
@@ -6332,7 +6332,7 @@ AnnotationAssertion(skos:definition co:PMD_0000961 "The sublimation point is a p
 AnnotationAssertion(co:PMD_0000060 co:PMD_0000961 "true"^^xsd:boolean)
 SubClassOf(co:PMD_0000961 co:PMD_0000882)
 
-# Class: co:PMD_0000962 (Überkritische Fluidchromatographie Verfahren)
+# Class: co:PMD_0000962 (supercritical fluid chromatography process)
 
 AnnotationAssertion(rdfs:label co:PMD_0000962 "supercritical fluid chromatography process"@en)
 AnnotationAssertion(rdfs:label co:PMD_0000962 "Überkritische Fluidchromatographie Verfahren"@de)
@@ -6487,7 +6487,7 @@ AnnotationAssertion(skos:example co:PMD_0000979 "Measuring the thermal conductiv
 AnnotationAssertion(co:PMD_0050117 co:PMD_0000979 "TCMP"@en)
 SubClassOf(co:PMD_0000979 co:PMD_0000982)
 
-# Class: co:PMD_0000980 (Wärmeleitfähigkeitsmessfunktion)
+# Class: co:PMD_0000980 (thermal conductivity measuring function)
 
 AnnotationAssertion(rdfs:label co:PMD_0000980 "Wärmeleitfähigkeitsmessfunktion"@de)
 AnnotationAssertion(rdfs:label co:PMD_0000980 "thermal conductivity measuring function"@en)
