@@ -33,7 +33,7 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "Hossein Beygi Nasrabadi"
+        allocatedto: "HosseinBeygiNasrabadi"
     
     EquivalentTo: 
         xsd:integer[>= 0 , <= 999999]

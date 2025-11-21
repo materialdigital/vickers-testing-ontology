@@ -11,15 +11,14 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/pmd/vto/">
         <owl:versionIRI rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
-        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, ...... TODO. NFDIcore Ontology. Revision: v3.0.0. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.0</terms:bibliographicCitation>
-        <terms:created>2025-11-18</terms:created>
+        <terms:bibliographicCitation>Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0</terms:bibliographicCitation>
+        <terms:created>2025-11-21</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <terms:creator>https://orcid.org/0000-0002-3092-0532</terms:creator>
         <terms:description>Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard.</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>Vickers Test Ontology</terms:title>
         <rdfs:comment>Reused ontologies: BFO, RO, PMDco V3.0.0-alpha4, NFDIcore V3.0.0, MWO V3.0.0</rdfs:comment>
-        <rdfs:label>vto</rdfs:label>
-        <owl:priorVersion rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
         <owl:versionInfo>3.0.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -161,18 +160,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000058 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000058"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
@@ -191,12 +178,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <skos:definition xml:lang="en">b occurs in c =Def b is a process or a process boundary &amp; c is a material entity or site &amp; there exists a spatiotemporal region r &amp; b occupies spatiotemporal region r &amp; for all time t, if b exists at t then c exists at t &amp; there exist spatial regions s and s&apos; where b spatially projects onto s at t &amp; c occupies spatial region s&apos; at t &amp; s is a continuant part of s&apos; at t</skos:definition>
         <skos:example xml:lang="en">A process of digestion occurs in the interior of an organism; a process of loading artillery rounds into a tank cannon occurs in the interior of the tank</skos:example>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000176 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176"/>
     
 
 
@@ -282,6 +263,39 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001927 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001927">
+        <obo:IAO_0000115 xml:lang="en">A relation between a value specification and an entity which the specification is about.</obo:IAO_0000115>
+        <rdfs:label>specifies value of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+        <obo:IAO_0000112 xml:lang="en">A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant).</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process).</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">is concretized as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000059 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000059">
@@ -342,6 +356,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/RO_0002352 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002352">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <obo:IAO_0000115>inverse of has input</obo:IAO_0000115>
         <rdfs:label xml:lang="en">input of</rdfs:label>
     </owl:ObjectProperty>
@@ -351,21 +366,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <obo:IAO_0000115>inverse of has output</obo:IAO_0000115>
         <rdfs:label xml:lang="en">output of</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000208 -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000208"/>
-    
-
-
-    <!-- https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023 -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023"/>
     
 
 

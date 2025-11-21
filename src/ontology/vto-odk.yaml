@@ -24,7 +24,7 @@ import_group:
   - id: mwo
     mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl
     #module_type: custom
-  - id: iao
-    module_type: custom
+#  - id: iao
+#    module_type: custom
 namespaces:
-  - https://w3id.org/pmd/ao/vto/
+  - https://w3id.org/pmd/vto/

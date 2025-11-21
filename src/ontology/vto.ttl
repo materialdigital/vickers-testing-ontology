@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/pmd/vto/> .
+@prefix : <https://w3id.org/pmd/vto.ttl#> .
 @prefix co: <https://w3id.org/pmd/co/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
@@ -11,19 +11,17 @@
 @prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 @prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <https://w3id.org/pmd/vto/> .
+@base <https://w3id.org/pmd/vto.ttl> .
 
-<https://w3id.org/pmd/vto/> rdf:type owl:Ontology ;
-                             owl:versionIRI <https://w3id.org/pmd/vto/3.0.0> ;
-                             dcterms:bibliographicCitation "Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0" ;
-                             dcterms:created "2025-11-21" ;
-                             dcterms:creator <https://orcid.org/0000-0001-7192-7143> ,
-                                             "https://orcid.org/0000-0002-3092-0532" ;
-                             dcterms:description "Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard." ;
-                             dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-                             dcterms:title "Vickers Test Ontology" ;
-                             rdfs:comment "Reused ontologies: BFO, RO, PMDco V3.0.0-alpha4, NFDIcore V3.0.0, MWO V3.0.0" ;
-                             owl:versionInfo "3.0.0" .
+<https://w3id.org/pmd/vto.ttl> rdf:type owl:Ontology ;
+                                owl:versionIRI <https://w3id.org/pmd/vto/releases/2025-11-21/vto.ttl> ;
+                                dcterms:creator <https://orcid.org/0000-0001-7192-7143> ,
+                                                "https://orcid.org/0000-0002-3092-0532" ;
+                                dcterms:description "Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard." ;
+                                dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+                                dcterms:title "Vickers Test Ontology" ;
+                                rdfs:comment "Reused ontologies: BFO, RO, PMDco V3.0.0-alpha4, NFDIcore V3.0.0, MWO V3.0.0" ;
+                                owl:versionInfo "2025-11-21" .
 
 #################################################################
 #    Annotation properties
@@ -33,8 +31,8 @@
 obo:IAO_0000112 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000115 "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
-                rdfs:label "example of usage"@en ,
-                           "example of usage" .
+                rdfs:label "example of usage" ,
+                           "example of usage"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000115
@@ -82,8 +80,8 @@ Personally, I am more comfortable weakening definition to documentation, with in
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  """@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
-                rdfs:label "definition"@en ,
-                           "definition" ,
+                rdfs:label "definition" ,
+                           "definition"@en ,
                            "textual definition" .
 
 
@@ -98,9 +96,9 @@ obo:IAO_0000116 rdf:type owl:AnnotationProperty ;
 obo:IAO_0000119 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ,
                                 "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
-                obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
-                                "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ,
-                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" ;
+                obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" ,
+                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
+                                "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:label "definition source"@en .
 
 
@@ -147,8 +145,8 @@ dcterms:title rdf:type owl:AnnotationProperty ;
 
 ###  http://www.w3.org/2000/01/rdf-schema#label
 rdfs:label rdf:type owl:AnnotationProperty ;
-           rdfs:label "label"@en ,
-                      "label" .
+           rdfs:label "label" ,
+                      "label"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -2638,14 +2636,14 @@ obo:IAO_0000027 rdf:type owl:Class ;
                 obo:IAO_0000116 "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en ,
                                 "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en ,
                                 "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en ,
+                                "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/" ,
                                 """JAR: datum     -- well, this will be very tricky to define, but maybe some 
 information-like stuff that might be put into a computer and that is 
 meant, by someone, to denote and/or to be interpreted by some 
 process... I would include lists, tables, sentences... I think I might 
 defer to Barry, or to Brian Cantwell Smith
 
-JAR: A data item is an approximately justified approximately true approximate belief"""@en ,
-                                "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/" ;
+JAR: A data item is an approximately justified approximately true approximate belief"""@en ;
                 rdfs:label "data item"@en .
 
 
@@ -2677,8 +2675,8 @@ obo:IAO_0000030 rdf:type owl:Class ;
 
 Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."""@en ;
                 obo:IAO_0000119 "OBI_0000142"@en ;
-                rdfs:label "information content entity"@en ,
-                           "information content entity" .
+                rdfs:label "information content entity" ,
+                           "information content entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000032
@@ -3030,14 +3028,14 @@ obo:OBI_0000112 rdf:type owl:Class ;
                                 ] ;
                 obo:IAO_0000112 "liver section; a portion of a culture of cells; a nemotode or other animal once no longer a subject (generally killed); portion of blood from a patient." ;
                 obo:IAO_0000115 "A role borne by a material entity that is obtained during a specimen collection process and that can be realized by performing measurements or observations on the specimen."@en ;
-                obo:IAO_0000116 """blood taken from animal: animal continues in study, whereas blood has role specimen.
+                obo:IAO_0000116 "22Jun09.  The definition includes whole organisms, and can include a human.  The link between specimen role and study subject role has been removed.  A specimen taken as part of a case study is not considered to be a population representative, while a specimen taken as representing a population, e.g. person taken from a cohort, blood specimen taken from an animal) would be considered a population representative and would also bear material sample role." ,
+                                "Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation." ,
+                                """blood taken from animal: animal continues in study, whereas blood has role specimen.
 something taken from study subject, leaves the study and becomes the specimen."""@en ,
                                 """parasite example
 - when parasite in people we study people, people are subjects and parasites are specimen
 - when parasite extracted, they become subject in the following study
-specimen can later be subject."""@en ,
-                                "22Jun09.  The definition includes whole organisms, and can include a human.  The link between specimen role and study subject role has been removed.  A specimen taken as part of a case study is not considered to be a population representative, while a specimen taken as representing a population, e.g. person taken from a cohort, blood specimen taken from an animal) would be considered a population representative and would also bear material sample role." ,
-                                "Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation." ;
+specimen can later be subject."""@en ;
                 obo:IAO_0000119 "OBI" ;
                 rdfs:label "specimen role"@en .
 
@@ -11487,8 +11485,8 @@ co:VTO_0000013 rdf:type owl:Class ;
 ###  https://w3id.org/pmd/co/VTO_0000014
 co:VTO_0000014 rdf:type owl:Class ;
                rdfs:subClassOf obo:BFO_0000030 ;
-               rdfs:label "certified reference material"@en ,
-                          "CRM" ;
+               rdfs:label "CRM" ,
+                          "certified reference material"@en ;
                skos:definition "A material with one or more well-characterized properties, certified by an authoritative body, used to ensure accuracy and traceability in measurements." .
 
 

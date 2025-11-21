@@ -11,15 +11,14 @@
     <owl:Ontology rdf:about="https://w3id.org/pmd/vto/">
         <owl:versionIRI rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi, ...... TODO. NFDIcore Ontology. Revision: v3.0.0. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.0</dcterms:bibliographicCitation>
-        <dcterms:created>2025-11-18</dcterms:created>
+        <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0</dcterms:bibliographicCitation>
+        <dcterms:created>2025-11-21</dcterms:created>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <dcterms:creator>https://orcid.org/0000-0002-3092-0532</dcterms:creator>
         <dcterms:description>Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard.</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <dcterms:title>Vickers Test Ontology</dcterms:title>
         <rdfs:comment>Reused ontologies: BFO, RO, PMDco V3.0.0-alpha4, NFDIcore V3.0.0, MWO V3.0.0</rdfs:comment>
-        <rdfs:label>vto</rdfs:label>
-        <owl:priorVersion rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
         <owl:versionInfo>3.0.0</owl:versionInfo>
     </owl:Ontology>
     

@@ -26,7 +26,7 @@ CITATION="'Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontolog
 ALL_ANNOTATIONS=--ontology-iri https://w3id.org/pmd/vto/ -V https://w3id.org/pmd/vto/$(VERSION) \
 	--annotation http://purl.org/dc/terms/created "$(TODAY)" \
 	--annotation http://purl.org/dc/terms/bibliographicCitation "$(CITATION)"  \
-	--link-annotation owl:priorVersion https://w3id.org/pmd/vto/$(PRIOR_VERSION) \
+#	--link-annotation owl:priorVersion https://w3id.org/pmd/vto/$(PRIOR_VERSION) \
 
 update-ontology-annotations: 
 	$(ROBOT) annotate --input ../../vto.owl $(ALL_ANNOTATIONS) --output ../../vto.owl && \

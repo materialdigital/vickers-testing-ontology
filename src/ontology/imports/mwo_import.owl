@@ -1,4 +1,4 @@
-Prefix(:=<https://w3id.org/pmd/ao/vto/imports/mwo_import.owl#>)
+Prefix(:=<https://w3id.org/pmd/vto/imports/mwo_import.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,11 +6,12 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<https://w3id.org/pmd/ao/vto/imports/mwo_import.owl>
-<https://w3id.org/pmd/ao/vto/releases/2025-11-20/imports/mwo_import.owl>
+Ontology(<https://w3id.org/pmd/vto/imports/mwo_import.owl>
+<https://w3id.org/pmd/vto/releases/2025-11-21/imports/mwo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0>)
-Annotation(owl:versionInfo "2025-11-20")
+Annotation(owl:versionInfo "2025-11-21")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000590>))
@@ -40,15 +41,24 @@ AnnotationAssertion(rdfs:label rdfs:label "label")
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000033> (directive information entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000033> "An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000033> "directive information entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000300> (textual entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000300> "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000300> "textual entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000590> (written name)
 
@@ -64,6 +74,7 @@ SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <https://nfdi.f
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> (identifier)
 
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> "identifier"@en)
+SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 
 )

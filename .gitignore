@@ -14,7 +14,15 @@ bin/
 
 .github/token.txt
 
-
+/vto.owl
+/vto.obo
+/vto.json
+/vto.db
+/vto-base.*
+/vto-basic.*
+/vto-full.*
+/vto-simple.*
+/vto-simple-non-classified.*
 /mappings/
 /patterns/
 /reports/

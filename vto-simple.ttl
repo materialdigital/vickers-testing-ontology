@@ -11,15 +11,14 @@
 
 <https://w3id.org/pmd/vto/> rdf:type owl:Ontology ;
                              owl:versionIRI <https://w3id.org/pmd/vto/3.0.0> ;
-                             terms:bibliographicCitation "Hossein Beygi Nasrabadi, ...... TODO. NFDIcore Ontology. Revision: v3.0.0. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.0" ;
-                             terms:created "2025-11-18" ;
-                             terms:creator "https://orcid.org/0000-0002-3092-0532" ;
+                             terms:bibliographicCitation "Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0" ;
+                             terms:created "2025-11-21" ;
+                             terms:creator <https://orcid.org/0000-0001-7192-7143> ,
+                                           "https://orcid.org/0000-0002-3092-0532" ;
                              terms:description "Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard." ;
-                             terms:license <https://creativecommons.org/licenses/unspecified> ;
+                             terms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
                              terms:title "Vickers Test Ontology" ;
                              rdfs:comment "Reused ontologies: BFO, RO, PMDco V3.0.0-alpha4, NFDIcore V3.0.0, MWO V3.0.0" ;
-                             rdfs:label "vto" ;
-                             owl:priorVersion <https://w3id.org/pmd/vto/3.0.0> ;
                              owl:versionInfo "3.0.0" .
 
 #################################################################
@@ -110,14 +109,6 @@ obo:BFO_0000055 rdf:type owl:ObjectProperty ;
                 skos:example "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart"@en .
 
 
-###  http://purl.obolibrary.org/obo/BFO_0000056
-obo:BFO_0000056 rdf:type owl:ObjectProperty .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000058
-obo:BFO_0000058 rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.obolibrary.org/obo/BFO_0000062
 obo:BFO_0000062 rdf:type owl:ObjectProperty ,
                          owl:TransitiveProperty ;
@@ -131,10 +122,6 @@ obo:BFO_0000066 rdf:type owl:ObjectProperty ;
                 rdfs:label "occurs in"@en ;
                 skos:definition "b occurs in c =Def b is a process or a process boundary & c is a material entity or site & there exists a spatiotemporal region r & b occupies spatiotemporal region r & for all time t, if b exists at t then c exists at t & there exist spatial regions s and s' where b spatially projects onto s at t & c occupies spatial region s' at t & s is a continuant part of s' at t"@en ;
                 skos:example "A process of digestion occurs in the interior of an organism; a process of loading artillery rounds into a tank cannon occurs in the interior of the tank"@en .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000176
-obo:BFO_0000176 rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000196
@@ -207,6 +194,30 @@ Werner suggests a solution based on \"Magnitudes\" a proposal for which we are a
                 rdfs:label "is quality measurement of"@en .
 
 
+###  http://purl.obolibrary.org/obo/OBI_0001927
+obo:OBI_0001927 rdf:type owl:ObjectProperty ;
+                obo:IAO_0000115 "A relation between a value specification and an entity which the specification is about."@en ;
+                rdfs:label "specifies value of" .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000056
+obo:RO_0000056 rdf:type owl:ObjectProperty ;
+               obo:IAO_0000112 "this blood clot participates in this blood coagulation"@en ,
+                               "this input material (or this output material) participates in this process"@en ,
+                               "this investigator participates in this investigation"@en ;
+               obo:IAO_0000115 "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en ;
+               rdfs:label "participates in"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000058
+obo:RO_0000058 rdf:type owl:ObjectProperty ;
+               owl:inverseOf obo:RO_0000059 ;
+               obo:IAO_0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en ,
+                               "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."@en ;
+               obo:IAO_0000115 "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."@en ;
+               rdfs:label "is concretized as"@en .
+
+
 ###  http://purl.obolibrary.org/obo/RO_0000059
 obo:RO_0000059 rdf:type owl:ObjectProperty ;
                obo:IAO_0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en ,
@@ -251,22 +262,16 @@ obo:RO_0000087 rdf:type owl:ObjectProperty ;
 
 ###  http://purl.obolibrary.org/obo/RO_0002352
 obo:RO_0002352 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000056 ;
                obo:IAO_0000115 "inverse of has input" ;
                rdfs:label "input of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002353
 obo:RO_0002353 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000056 ;
                obo:IAO_0000115 "inverse of has output" ;
                rdfs:label "output of"@en .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000208
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000208> rdf:type owl:ObjectProperty .
-
-
-###  https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023
-<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001023> rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/pmd/co/PMD_0020005
