@@ -306,9 +306,9 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0000013> <https://w3id.org/pmd/vto/VTO_
 
 # Class: <https://w3id.org/pmd/vto/VTO_0000014> (certified reference material)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0000014> "CRM")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0000014> "certified reference material"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0000014> "A material with one or more well-characterized properties, certified by an authoritative body, used to ensure accuracy and traceability in measurements.")
+AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0050117> <https://w3id.org/pmd/vto/VTO_0000014> "CRM")
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0000014> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0000015> (vickers reference material)
