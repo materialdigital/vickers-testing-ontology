@@ -13,4 +13,4 @@ sh run.sh make VERSION=$VERSION PRIOR_VERSION=$PRIOR_VERSION update-ontology-ann
 
 
 # finally refresh imports again, so that version IRIs are updated back to "normal". 
-#sh run.sh make IMP=false MIR=false refresh-imports
+sh run.sh make 
