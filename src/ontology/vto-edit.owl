@@ -165,8 +165,8 @@ Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_uncertainty_h
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_testing_date>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/HV5>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/vto/Vickers_test_piece_chemical_composition_specification>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/vto/Vickers_test_standard_deviation_hardness_value>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
@@ -842,17 +842,17 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_mate
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
 ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002002> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
 
-# Individual: <https://w3id.org/pmd/vto/vto/Vickers_test_piece_chemical_composition_specification> (Vickers_test_piece_chemical_composition_specification)
+# Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> (Vickers_test_piece_chemical_composition_specification)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/vto/Vickers_test_piece_chemical_composition_specification> "Vickers_test_piece_chemical_composition_specification"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/vto/Vickers_test_piece_chemical_composition_specification>)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/vto/Vickers_test_piece_chemical_composition_specification>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> "Vickers_test_piece_chemical_composition_specification"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
 
-# Individual: <https://w3id.org/pmd/vto/vto/Vickers_test_standard_deviation_hardness_value> (Vickers_test_standard_deviation_hardness_value)
+# Individual: <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> (Vickers_test_standard_deviation_hardness_value)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/vto/Vickers_test_standard_deviation_hardness_value> "Vickers_test_standard_deviation_hardness_value"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/vto/Vickers_test_standard_deviation_hardness_value>)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/vto/Vickers_test_standard_deviation_hardness_value>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> "Vickers_test_standard_deviation_hardness_value"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
 
 
 )
