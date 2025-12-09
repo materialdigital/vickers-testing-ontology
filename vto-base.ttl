@@ -15,7 +15,7 @@
                              owl:versionIRI <https://w3id.org/pmd/vto/3.0.0> ;
                              dce:type obo:IAO_8000001 ;
                              dcterms:bibliographicCitation "Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0" ;
-                             dcterms:created "2025-11-21" ;
+                             dcterms:created "2025-12-09" ;
                              dcterms:creator <https://orcid.org/0000-0001-7192-7143> ,
                                              "https://orcid.org/0000-0002-3092-0532" ;
                              dcterms:description "Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard." ;
@@ -80,16 +80,12 @@ obo:BFO_0000050 rdf:type owl:ObjectProperty .
 obo:BFO_0000055 rdf:type owl:ObjectProperty .
 
 
-###  http://purl.obolibrary.org/obo/BFO_0000062
-obo:BFO_0000062 rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.obolibrary.org/obo/BFO_0000066
 obo:BFO_0000066 rdf:type owl:ObjectProperty .
 
 
-###  http://purl.obolibrary.org/obo/BFO_0000197
-obo:BFO_0000197 rdf:type owl:ObjectProperty .
+###  http://purl.obolibrary.org/obo/IAO_0000136
+obo:IAO_0000136 rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000219
@@ -102,6 +98,10 @@ obo:OBI_0001927 rdf:type owl:ObjectProperty .
 
 ###  http://purl.obolibrary.org/obo/RO_0000056
 obo:RO_0000056 rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000058
+obo:RO_0000058 rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000059
@@ -132,12 +132,8 @@ obo:RO_0002352 rdf:type owl:ObjectProperty .
 obo:RO_0002353 rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/pmd/co/PMD_0020005
-co:PMD_0020005 rdf:type owl:ObjectProperty .
-
-
-###  https://w3id.org/pmd/co/PMD_0020022
-co:PMD_0020022 rdf:type owl:ObjectProperty .
+###  https://w3id.org/pmd/co/PMD_0025999
+co:PMD_0025999 rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -188,16 +184,8 @@ obo:IAO_0000104 rdf:type owl:Class .
 obo:IAO_0000300 rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/IAO_0000416
-obo:IAO_0000416 rdf:type owl:Class .
-
-
 ###  http://purl.obolibrary.org/obo/IAO_0000590
 obo:IAO_0000590 rdf:type owl:Class .
-
-
-###  http://purl.obolibrary.org/obo/NCBITaxon_9606
-obo:NCBITaxon_9606 rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/OBI_0000011
@@ -208,6 +196,10 @@ obo:OBI_0000011 rdf:type owl:Class .
 obo:OBI_0001931 rdf:type owl:Class .
 
 
+###  http://purl.obolibrary.org/obo/OBI_0001933
+obo:OBI_0001933 rdf:type owl:Class .
+
+
 ###  http://purls.helmholtz-metadaten.de/mwo/MWO_0001099
 <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> rdf:type owl:Class .
 
@@ -216,24 +208,12 @@ obo:OBI_0001931 rdf:type owl:Class .
 <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015> rdf:type owl:Class .
 
 
-###  https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification
-<https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification> rdf:type owl:Class .
-
-
-###  https://w3id.org/pmd/Vickers_test_piece_material_designation
-<https://w3id.org/pmd/Vickers_test_piece_material_designation> rdf:type owl:Class .
-
-
-###  https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value
-<https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value> rdf:type owl:Class .
-
-
 ###  https://w3id.org/pmd/co/PMD_0000000
 co:PMD_0000000 rdf:type owl:Class .
 
 
-###  https://w3id.org/pmd/co/PMD_0000014
-co:PMD_0000014 rdf:type owl:Class .
+###  https://w3id.org/pmd/co/PMD_0000551
+co:PMD_0000551 rdf:type owl:Class .
 
 
 ###  https://w3id.org/pmd/co/PMD_0000583
@@ -260,14 +240,6 @@ co:PMD_0000776 rdf:type owl:Class .
 co:PMD_0000789 rdf:type owl:Class .
 
 
-###  https://w3id.org/pmd/co/PMD_0000873
-co:PMD_0000873 rdf:type owl:Class .
-
-
-###  https://w3id.org/pmd/co/PMD_0000909
-co:PMD_0000909 rdf:type owl:Class .
-
-
 ###  https://w3id.org/pmd/co/PMD_0000967
 co:PMD_0000967 rdf:type owl:Class .
 
@@ -286,6 +258,10 @@ co:PMD_0020132 rdf:type owl:Class .
 
 ###  https://w3id.org/pmd/co/PMD_0020200
 co:PMD_0020200 rdf:type owl:Class .
+
+
+###  https://w3id.org/pmd/co/PMD_0025002
+co:PMD_0025002 rdf:type owl:Class .
 
 
 ###  https://w3id.org/pmd/co/PMD_0040001
@@ -540,8 +516,8 @@ co:PMD_0040001 rdf:type owl:Class .
 
 ###  https://w3id.org/pmd/vto/VTO_0000032
 :VTO_0000032 rdf:type owl:Class ;
-             rdfs:subClassOf obo:IAO_0000416 ;
-             rdfs:label "date datum"@en ;
+             rdfs:subClassOf obo:OBI_0001933 ;
+             rdfs:label "date value specification"@en ;
              skos:definition "A datum that represents a date or time interval associated with another specification." .
 
 
@@ -648,7 +624,7 @@ co:PMD_0040001 rdf:type owl:Class .
 :VTO_0001001 rdf:type owl:Class ;
              owl:equivalentClass [ owl:intersectionOf ( :VTO_0000004
                                                         [ rdf:type owl:Restriction ;
-                                                          owl:onProperty obo:BFO_0000197 ;
+                                                          owl:onProperty obo:RO_0000080 ;
                                                           owl:someValuesFrom :VTO_0000008
                                                         ]
                                                       ) ;
@@ -656,7 +632,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                  ] ;
              rdfs:subClassOf :VTO_0000004 ,
                              [ rdf:type owl:Restriction ;
-                               owl:onProperty obo:BFO_0000197 ;
+                               owl:onProperty obo:RO_0000080 ;
                                owl:someValuesFrom :VTO_0000008
                              ] ;
              rdfs:label "indentation diagonal"@en ;
@@ -694,7 +670,7 @@ co:PMD_0040001 rdf:type owl:Class .
 ###  https://w3id.org/pmd/vto/VTO_0001006
 :VTO_0001006 rdf:type owl:Class ;
              rdfs:subClassOf :VTO_0001005 ;
-             rdfs:label "atmosphare"@en ;
+             rdfs:label "atmosphere"@en ;
              skos:definition "An environment consisting of gases that surround a material or process, affecting its physical or chemical behavior." .
 
 
@@ -707,37 +683,7 @@ co:PMD_0040001 rdf:type owl:Class .
 
 ###  https://w3id.org/pmd/vto/VTO_0001008
 :VTO_0001008 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( obo:IAO_0000104
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty [ owl:inverseOf obo:RO_0000059
-                                                                         ] ;
-                                                          owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000014
-                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty [ owl:inverseOf obo:BFO_0000055
-                                                                                                                     ] ;
-                                                                                                      owl:someValuesFrom :VTO_0000016
-                                                                                                    ]
-                                                                                                  ) ;
-                                                                               rdf:type owl:Class
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf obo:IAO_0000104 ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty [ owl:inverseOf obo:RO_0000059
-                                              ] ;
-                               owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000014
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty [ owl:inverseOf obo:BFO_0000055
-                                                                                          ] ;
-                                                                           owl:someValuesFrom :VTO_0000016
-                                                                         ]
-                                                                       ) ;
-                                                    rdf:type owl:Class
-                                                  ]
-                             ] ;
+             rdfs:subClassOf obo:IAO_0000104 ;
              rdfs:label "Vickers test standard"@en ;
              skos:definition "a standard that defines the procedures, conditions, and requirements for performing and evaluating the Vickers hardness test." .
 
@@ -746,7 +692,7 @@ co:PMD_0040001 rdf:type owl:Class .
 :VTO_0001009 rdf:type owl:Class ;
              owl:equivalentClass [ owl:intersectionOf ( :VTO_0000032
                                                         [ rdf:type owl:Restriction ;
-                                                          owl:onProperty obo:IAO_0000219 ;
+                                                          owl:onProperty obo:IAO_0000136 ;
                                                           owl:someValuesFrom :VTO_0000016
                                                         ]
                                                       ) ;
@@ -754,7 +700,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                  ] ;
              rdfs:subClassOf :VTO_0000032 ,
                              [ rdf:type owl:Restriction ;
-                               owl:onProperty obo:IAO_0000219 ;
+                               owl:onProperty obo:IAO_0000136 ;
                                owl:someValuesFrom :VTO_0000016
                              ] ;
              rdfs:label "Vickers testing date"@en ;
@@ -770,33 +716,7 @@ co:PMD_0040001 rdf:type owl:Class .
 
 ###  https://w3id.org/pmd/vto/VTO_0001011
 :VTO_0001011 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( :VTO_0001010
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty obo:IAO_0000219 ;
-                                                          owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000909
-                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty obo:BFO_0000062 ;
-                                                                                                      owl:someValuesFrom :VTO_0000016
-                                                                                                    ]
-                                                                                                  ) ;
-                                                                               rdf:type owl:Class
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf :VTO_0001010 ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty obo:IAO_0000219 ;
-                               owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000909
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty obo:BFO_0000062 ;
-                                                                           owl:someValuesFrom :VTO_0000016
-                                                                         ]
-                                                                       ) ;
-                                                    rdf:type owl:Class
-                                                  ]
-                             ] ;
+             rdfs:subClassOf :VTO_0001010 ;
              rdfs:label "Vickers test related project"@en ;
              skos:definition "a project designation that identifies the project associated with a specific Vickers hardness test." .
 
@@ -810,49 +730,7 @@ co:PMD_0040001 rdf:type owl:Class .
 
 ###  https://w3id.org/pmd/vto/VTO_0001013
 :VTO_0001013 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( :VTO_0001012
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty [ owl:inverseOf obo:RO_0000059
-                                                                         ] ;
-                                                          owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000873
-                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty obo:RO_0000081 ;
-                                                                                                      owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_9606
-                                                                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                                                                  owl:onProperty obo:RO_0000056 ;
-                                                                                                                                                  owl:someValuesFrom :VTO_0000016
-                                                                                                                                                ]
-                                                                                                                                              ) ;
-                                                                                                                           rdf:type owl:Class
-                                                                                                                         ]
-                                                                                                    ]
-                                                                                                  ) ;
-                                                                               rdf:type owl:Class
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf :VTO_0001012 ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty [ owl:inverseOf obo:RO_0000059
-                                              ] ;
-                               owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000873
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty obo:RO_0000081 ;
-                                                                           owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_9606
-                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                       owl:onProperty obo:RO_0000056 ;
-                                                                                                                       owl:someValuesFrom :VTO_0000016
-                                                                                                                     ]
-                                                                                                                   ) ;
-                                                                                                rdf:type owl:Class
-                                                                                              ]
-                                                                         ]
-                                                                       ) ;
-                                                    rdf:type owl:Class
-                                                  ]
-                             ] ;
+             rdfs:subClassOf :VTO_0001012 ;
              rdfs:label "Vickers test operator identification"@en ;
              skos:definition "A textual entity intended to identify the operator who performed the Vickers hardness test." .
 
@@ -1077,7 +955,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                                           owl:onProperty obo:OBI_0001927 ;
                                                           owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000025
                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty obo:BFO_0000197 ;
+                                                                                                      owl:onProperty co:PMD_0025999 ;
                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000009
                                                                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                                                                   owl:onProperty obo:RO_0000056 ;
@@ -1099,7 +977,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                owl:onProperty obo:OBI_0001927 ;
                                owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000025
                                                                          [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty obo:BFO_0000197 ;
+                                                                           owl:onProperty co:PMD_0025999 ;
                                                                            owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000009
                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                        owl:onProperty obo:RO_0000056 ;
@@ -1124,8 +1002,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                                           owl:onProperty obo:IAO_0000219 ;
                                                           owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000000
                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty [ owl:inverseOf co:PMD_0020005
-                                                                                                                     ] ;
+                                                                                                      owl:onProperty obo:BFO_0000050 ;
                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000009
                                                                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                                                                   owl:onProperty obo:RO_0000056 ;
@@ -1147,8 +1024,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                owl:onProperty obo:IAO_0000219 ;
                                owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000000
                                                                          [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty [ owl:inverseOf co:PMD_0020005
-                                                                                          ] ;
+                                                                           owl:onProperty obo:BFO_0000050 ;
                                                                            owl:someValuesFrom [ owl:intersectionOf ( :VTO_0000009
                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                        owl:onProperty obo:RO_0000056 ;
@@ -1229,8 +1105,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                                           owl:onProperty obo:OBI_0001927 ;
                                                           owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000967
                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty [ owl:inverseOf co:PMD_0020022
-                                                                                                                     ] ;
+                                                                                                      owl:onProperty obo:RO_0000080 ;
                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( :VTO_0001006
                                                                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                                                                   owl:onProperty [ owl:inverseOf obo:BFO_0000066
@@ -1260,8 +1135,7 @@ co:PMD_0040001 rdf:type owl:Class .
                                owl:onProperty obo:OBI_0001927 ;
                                owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000967
                                                                          [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty [ owl:inverseOf co:PMD_0020022
-                                                                                          ] ;
+                                                                           owl:onProperty obo:RO_0000080 ;
                                                                            owl:someValuesFrom [ owl:intersectionOf ( :VTO_0001006
                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                        owl:onProperty [ owl:inverseOf obo:BFO_0000066
@@ -1557,36 +1431,266 @@ co:PMD_0040001 rdf:type owl:Class .
              skos:definition "a value specification that specifies the hardness value from a Vickers hardness test." .
 
 
+###  https://w3id.org/pmd/vto/VTO_0002001
+:VTO_0002001 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :VTO_0001016
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty obo:RO_0000058 ;
+                                                          owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000551
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty obo:RO_0000080 ;
+                                                                                                      owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000030
+                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty obo:RO_0002352 ;
+                                                                                                                                                  owl:someValuesFrom :VTO_0000016
+                                                                                                                                                ]
+                                                                                                                                              ) ;
+                                                                                                                           rdf:type owl:Class
+                                                                                                                         ]
+                                                                                                    ]
+                                                                                                  ) ;
+                                                                               rdf:type owl:Class
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf co:PMD_0025002 ,
+                             :VTO_0001016 ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty obo:RO_0000058 ;
+                               owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000551
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty obo:RO_0000080 ;
+                                                                           owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000030
+                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                       owl:onProperty obo:RO_0002352 ;
+                                                                                                                       owl:someValuesFrom :VTO_0000016
+                                                                                                                     ]
+                                                                                                                   ) ;
+                                                                                                rdf:type owl:Class
+                                                                                              ]
+                                                                         ]
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ]
+                             ] ;
+             rdfs:label "Vickers test piece chemical composition specification"@en ;
+             skos:definition "an information content entity that specifies the values of the chemical components of the material used for a Vickers test piece." .
+
+
+###  https://w3id.org/pmd/vto/VTO_0002002
+:VTO_0002002 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :VTO_0001014
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty [ owl:inverseOf obo:RO_0000059
+                                                                         ] ;
+                                                          owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000975
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty obo:RO_0000081 ;
+                                                                                                      owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000030
+                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty obo:RO_0002352 ;
+                                                                                                                                                  owl:someValuesFrom :VTO_0000016
+                                                                                                                                                ]
+                                                                                                                                              ) ;
+                                                                                                                           rdf:type owl:Class
+                                                                                                                         ]
+                                                                                                    ]
+                                                                                                  ) ;
+                                                                               rdf:type owl:Class
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf :VTO_0001014 ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty [ owl:inverseOf obo:RO_0000059
+                                              ] ;
+                               owl:someValuesFrom [ owl:intersectionOf ( co:PMD_0000975
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty obo:RO_0000081 ;
+                                                                           owl:someValuesFrom [ owl:intersectionOf ( obo:BFO_0000030
+                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                       owl:onProperty obo:RO_0002352 ;
+                                                                                                                       owl:someValuesFrom :VTO_0000016
+                                                                                                                     ]
+                                                                                                                   ) ;
+                                                                                                rdf:type owl:Class
+                                                                                              ]
+                                                                         ]
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ]
+                             ] ;
+             rdfs:label "Vickers test piece material designation"@en ;
+             skos:definition "an identifier assigned to specify the material of a test piece used in a Vickers hardness test, like its name or ID" .
+
+
+###  https://w3id.org/pmd/vto/VTO_0002003
+:VTO_0002003 rdf:type owl:Class ;
+             rdfs:subClassOf :VTO_0001041 ;
+             rdfs:label "Vickers test standard deviation hardness value"@en ;
+             skos:definition "a value specification that specifies the standard deviation of hardness values measured in a Vickers hardness test." .
+
+
 #################################################################
 #    Individuals
 #################################################################
 
-###  https://w3id.org/pmd/vto/VTO_0001040
-:VTO_0001040 rdf:type owl:NamedIndividual ,
-                      :VTO_0001039 ;
-             rdfs:comment "a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf)." ;
-             rdfs:label "HV 5"@en .
+###  https://w3id.org/pmd/vto/HV5
+:HV5 rdf:type owl:NamedIndividual ,
+              :VTO_0001039 ;
+     rdfs:comment "a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf)." ;
+     rdfs:label "HV 5"@en .
 
 
-###  https://w3id.org/pmd/vto/VTO_0001045
-:VTO_0001045 rdf:type owl:NamedIndividual ,
-                      obo:IAO_0000030 ,
-                      <https://w3id.org/pmd/Vickers_test_piece_material_designation> ;
-             rdfs:label "Vickers_test_piece_material_designation"@en .
+###  https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation
+:Vickers_certified_reference_material_designation rdf:type owl:NamedIndividual ,
+                                                           obo:IAO_0000030 ,
+                                                           :VTO_0001028 ;
+                                                  rdfs:label "Vickers_certified_reference_material_designation"@en .
 
 
-###  https://w3id.org/pmd/vto/VTO_0001046
-:VTO_0001046 rdf:type owl:NamedIndividual ,
-                      obo:IAO_0000030 ,
-                      <https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification> ;
-             rdfs:label "Vickers_test_piece_chemical_composition_specification"@en .
+###  https://w3id.org/pmd/vto/Vickers_indenter_angel_value
+:Vickers_indenter_angel_value rdf:type owl:NamedIndividual ,
+                                       obo:IAO_0000030 ,
+                                       :VTO_0001025 ;
+                              rdfs:label "Vickers_indenter_angel_value"@en .
 
 
-###  https://w3id.org/pmd/vto/VTO_0001059
-:VTO_0001059 rdf:type owl:NamedIndividual ,
-                      obo:IAO_0000030 ,
-                      <https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value> ;
-             rdfs:label "Vickers_test_standard_deviation_hardness_value"@en .
+###  https://w3id.org/pmd/vto/Vickers_indenter_designation
+:Vickers_indenter_designation rdf:type owl:NamedIndividual ,
+                                       obo:IAO_0000030 ,
+                                       :VTO_0001024 ;
+                              rdfs:label "Vickers_indenter_designation"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_indenter_material_designation
+:Vickers_indenter_material_designation rdf:type owl:NamedIndividual ,
+                                                obo:IAO_0000030 ,
+                                                :VTO_0001026 ;
+                                       rdfs:label "Vickers_indenter_material_designation"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_average_diagonal_value
+:Vickers_test_average_diagonal_value rdf:type owl:NamedIndividual ,
+                                              obo:IAO_0000030 ,
+                                              :VTO_0001033 ;
+                                     rdfs:label "Vickers_test_average_diagonal_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_average_hardness_value
+:Vickers_test_average_hardness_value rdf:type owl:NamedIndividual ,
+                                              obo:IAO_0000030 ,
+                                              :VTO_0001032 ;
+                                     rdfs:label "Vickers_test_average_hardness_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_force_value
+:Vickers_test_force_value rdf:type owl:NamedIndividual ,
+                                   obo:IAO_0000030 ,
+                                   :VTO_0001030 ;
+                          rdfs:label "Vickers_test_force_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_hardness_range_value
+:Vickers_test_hardness_range_value rdf:type owl:NamedIndividual ,
+                                            obo:IAO_0000030 ,
+                                            :VTO_0001036 ;
+                                   rdfs:label "Vickers_test_hardness_range_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_loading_time_value
+:Vickers_test_loading_time_value rdf:type owl:NamedIndividual ,
+                                          obo:IAO_0000030 ,
+                                          :VTO_0001031 ;
+                                 rdfs:label "Vickers_test_loading_time_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_machine_designation
+:Vickers_test_machine_designation rdf:type owl:NamedIndividual ,
+                                           obo:IAO_0000030 ,
+                                           :VTO_0001023 ;
+                                  rdfs:label "Vickers_test_machine_designation"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_operator_identification
+:Vickers_test_operator_identification rdf:type owl:NamedIndividual ,
+                                               obo:IAO_0000030 ,
+                                               :VTO_0001013 ;
+                                      rdfs:label "Vickers_test_operator_identification"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification
+:Vickers_test_piece_chemical_composition_specification rdf:type owl:NamedIndividual ,
+                                                                obo:IAO_0000030 ,
+                                                                :VTO_0002001 ;
+                                                       rdfs:label "Vickers_test_piece_chemical_composition_specification"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value
+:Vickers_test_piece_dimension_value rdf:type owl:NamedIndividual ,
+                                             obo:IAO_0000030 ,
+                                             :VTO_0001021 ;
+                                    rdfs:label "Vickers_test_piece_dimension_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_piece_material_designation
+:Vickers_test_piece_material_designation rdf:type owl:NamedIndividual ,
+                                                  obo:IAO_0000030 ,
+                                                  :VTO_0002002 ;
+                                         rdfs:label "Vickers_test_piece_material_designation"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification
+:Vickers_test_piece_preparation_specification rdf:type owl:NamedIndividual ,
+                                                       obo:IAO_0000030 ,
+                                                       :VTO_0001019 ;
+                                              rdfs:label "Vickers_test_piece_preparation_specification"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_related_project
+:Vickers_test_related_project rdf:type owl:NamedIndividual ,
+                                       obo:IAO_0000030 ,
+                                       :VTO_0001011 ;
+                              rdfs:label "Vickers_test_related_project"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_standard
+:Vickers_test_standard rdf:type owl:NamedIndividual ,
+                                obo:IAO_0000030 ,
+                                :VTO_0001008 ;
+                       rdfs:label "Vickers_test_standard"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value
+:Vickers_test_standard_deviation_hardness_value rdf:type owl:NamedIndividual ,
+                                                         obo:IAO_0000030 ,
+                                                         :VTO_0002003 ;
+                                                rdfs:label "Vickers_test_standard_deviation_hardness_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_temperature_value
+:Vickers_test_temperature_value rdf:type owl:NamedIndividual ,
+                                         obo:IAO_0000030 ,
+                                         :VTO_0001029 ;
+                                rdfs:label "Vickers_test_temperature_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value
+:Vickers_test_uncertainty_hardness_value rdf:type owl:NamedIndividual ,
+                                                  obo:IAO_0000030 ,
+                                                  :VTO_0001035 ;
+                                         rdfs:label "Vickers_test_uncertainty_hardness_value"@en .
+
+
+###  https://w3id.org/pmd/vto/Vickers_testing_date
+:Vickers_testing_date rdf:type owl:NamedIndividual ,
+                               obo:IAO_0000030 ,
+                               :VTO_0001009 ;
+                      rdfs:label "Vickers_testing_date"@en .
 
 
 ###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi

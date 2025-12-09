@@ -13,7 +13,7 @@
     <owl:Ontology rdf:about="https://w3id.org/pmd/vto/">
         <owl:versionIRI rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
         <terms:bibliographicCitation>Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0</terms:bibliographicCitation>
-        <terms:created>2025-11-21</terms:created>
+        <terms:created>2025-12-09</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <terms:creator>https://orcid.org/0000-0002-3092-0532</terms:creator>
         <terms:description>Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard.</terms:description>
@@ -192,23 +192,18 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000196 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
-        <rdfs:label xml:lang="en">bearer of</rdfs:label>
-        <skos:definition xml:lang="en">b bearer of c =Def c inheres in b</skos:definition>
-        <skos:example xml:lang="en">A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality</skos:example>
-    </owl:ObjectProperty>
-    
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <obo:IAO_0000112 xml:lang="en">This document is about information artifacts and their representations</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive. 
 
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000197 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197">
-        <rdfs:label xml:lang="en">inheres in</rdfs:label>
-        <skos:definition xml:lang="en">b inheres in c =Def b is a specifically dependent continuant &amp; c is an independent continuant that is not a spatial region &amp; b specifically depends on c</skos:definition>
-        <skos:example xml:lang="en">A shape inheres in a shaped object; a mass inheres in a material entity</skos:example>
+Some currently missing phenomena that should be considered &quot;about&quot; are predications - &quot;The only person who knows the answer is sitting beside me&quot; , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -216,6 +211,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <obo:IAO_0000112 xml:lang="en">A person&apos;s name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance &quot;Alan&quot; can denote different people. In each case of use, there is a case of the denotation relation obtaining, between &quot;Alan&quot; and the person that is being named.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to &apos;pick out&apos; the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have &apos;specifically denotes&apos;, which would have been primitive, so make this relation primitive.
@@ -232,6 +228,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000221">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <obo:IAO_0000115 xml:lang="en">m is a quality measurement of q at t. When q is a quality, there is a measurement process p that has specified output m, a measurement datum, that is about q</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">8/6/2009 Alan Ruttenberg: The strategy is to be rather specific with this relationship. There are other kinds of measurements that are not of qualities, such as those that measure time. We will add these as separate properties for the moment and see about generalizing later</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">From the second IAO workshop [Alan Ruttenberg 8/6/2009: not completely current, though bringing in comparison is probably important]
@@ -277,6 +274,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/OBI_0001927 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001927">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a value specification and an entity which the specification is about.</obo:IAO_0000115>
         <rdfs:label>specifies value of</rdfs:label>
     </owl:ObjectProperty>
@@ -384,30 +382,14 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- https://w3id.org/pmd/co/PMD_0020005 -->
+    <!-- https://w3id.org/pmd/co/PMD_0025999 -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020005">
-        <rdfs:label xml:lang="en">consists of</rdfs:label>
-        <skos:definition xml:lang="en">A continuant part property that relates Material Entity Aggregates in the direction of smaller length-scale.</skos:definition>
-        <skos:example xml:lang="en">A portion of steel consists of a portion of carbon and a portion of iron.</skos:example>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/pmd/co/PMD_0020022 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020022">
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0020005"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000196"/>
-        </owl:propertyChainAxiom>
-        <rdfs:comment xml:lang="en">TODO: check if we should force the &apos;o&apos; to be a portion of matter&apos; through:
-http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
-or
-https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
-        <rdfs:label xml:lang="en">intensive bearer of</rdfs:label>
-        <skos:definition xml:lang="en">Intensive bearer of is a chain that allows to connect objects to intensive properties through &quot;the matter they consist of&quot;.</skos:definition>
-        <skos:example xml:lang="en">This piece of metal intensive bearer of some temperature.</skos:example>
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0025999">
+        <obo:IAO_0000116 xml:lang="en">The &apos;relational quality of&apos; is more strict that &apos;quality of&apos; from RO, since domain is &apos;relational quality&apos;. The motivtion to introduce an object property for relational qualities is the following:
+RO&apos;s &apos;quality of&apos; is functional i.e., a-&gt;b, a-&gt;c =&gt; b=c. The functionality is relevant for most of the SDC -&gt; IC triples, expect for relational qualities, which per definiton can be simultaneously inherited in &gt;=2 ICs. Thus,  &apos;relational quality of&apos;  has the same intention to connect SDC to IC, however, without cardinality constraints.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">relational quality of</rdfs:label>
+        <skos:definition xml:lang="en">a relation between a relational quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</skos:definition>
+        <skos:example xml:lang="en">mass proportion m is relational qualitiy of material, and the same mass proportion m is relational qualitiy of portion of iron</skos:example>
     </owl:ObjectProperty>
     
 
@@ -696,7 +678,7 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
     <!-- https://w3id.org/pmd/vto/VTO_0000032 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0000032">
-        <rdfs:label xml:lang="en">date datum</rdfs:label>
+        <rdfs:label xml:lang="en">date value specification</rdfs:label>
         <skos:definition>A datum that represents a date or time interval associated with another specification.</skos:definition>
     </owl:Class>
     
@@ -843,7 +825,7 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -896,7 +878,7 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0001006">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001005"/>
-        <rdfs:label xml:lang="en">atmosphare</rdfs:label>
+        <rdfs:label xml:lang="en">atmosphere</rdfs:label>
         <skos:definition>An environment consisting of gases that surround a material or process, affecting its physical or chemical behavior.</skos:definition>
     </owl:Class>
     
@@ -926,7 +908,7 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1146,7 +1128,7 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0000025"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0025999"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1432,6 +1414,36 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/pmd/vto/VTO_0002001 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001016"/>
+        <rdfs:label xml:lang="en">Vickers test piece chemical composition specification</rdfs:label>
+        <skos:definition>an information content entity that specifies the values of the chemical components of the material used for a Vickers test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/VTO_0002002 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001014"/>
+        <rdfs:label xml:lang="en">Vickers test piece material designation</rdfs:label>
+        <skos:definition>an identifier assigned to specify the material of a test piece used in a Vickers hardness test, like its name or ID</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/VTO_0002003 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001041"/>
+        <rdfs:label xml:lang="en">Vickers test standard deviation hardness value</rdfs:label>
+        <skos:definition>a value specification that specifies the standard deviation of hardness values measured in a Vickers hardness test.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1443,9 +1455,9 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001040 -->
+    <!-- https://w3id.org/pmd/vto/HV5 -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001040">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/HV5">
         <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001039"/>
         <rdfs:comment>a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf).</rdfs:comment>
         <rdfs:label xml:lang="en">HV 5</rdfs:label>
@@ -1453,26 +1465,191 @@ https://www.w3.org/TR/swbp-n-aryRelations/</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001045 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001045">
-        <rdfs:label xml:lang="en">Vickers_test_piece_material_designation</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001028"/>
+        <rdfs:label xml:lang="en">Vickers_certified_reference_material_designation</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001046 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_angel_value -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001046">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_angel_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001025"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_angel_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_designation">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001024"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_material_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_material_designation">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001026"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_material_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_average_diagonal_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_average_diagonal_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001033"/>
+        <rdfs:label xml:lang="en">Vickers_test_average_diagonal_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_average_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_average_hardness_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001032"/>
+        <rdfs:label xml:lang="en">Vickers_test_average_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_force_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_force_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001030"/>
+        <rdfs:label xml:lang="en">Vickers_test_force_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_hardness_range_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_hardness_range_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001036"/>
+        <rdfs:label xml:lang="en">Vickers_test_hardness_range_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_loading_time_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_loading_time_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001031"/>
+        <rdfs:label xml:lang="en">Vickers_test_loading_time_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_machine_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_machine_designation">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001023"/>
+        <rdfs:label xml:lang="en">Vickers_test_machine_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_operator_identification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_operator_identification">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001013"/>
+        <rdfs:label xml:lang="en">Vickers_test_operator_identification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002001"/>
         <rdfs:label xml:lang="en">Vickers_test_piece_chemical_composition_specification</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001059 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001059">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001021"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_dimension_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_material_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_material_designation">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002002"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_material_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001019"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_preparation_specification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_related_project -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_related_project">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001011"/>
+        <rdfs:label xml:lang="en">Vickers_test_related_project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_standard -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_standard">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001008"/>
+        <rdfs:label xml:lang="en">Vickers_test_standard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002003"/>
         <rdfs:label xml:lang="en">Vickers_test_standard_deviation_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_temperature_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_temperature_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001029"/>
+        <rdfs:label xml:lang="en">Vickers_test_temperature_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001035"/>
+        <rdfs:label xml:lang="en">Vickers_test_uncertainty_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_testing_date -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_testing_date">
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001009"/>
+        <rdfs:label xml:lang="en">Vickers_testing_date</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

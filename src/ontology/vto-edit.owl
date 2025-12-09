@@ -28,14 +28,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000300>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000590>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>))
-Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002001>))
-Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002002>))
-Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002003>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000000>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000551>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000583>))
@@ -44,7 +40,6 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0000603>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000774>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000776>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000789>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0000873>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000967>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000975>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020004>))
@@ -128,12 +123,13 @@ Declaration(Class(<https://w3id.org/pmd/vto/VTO_0001037>))
 Declaration(Class(<https://w3id.org/pmd/vto/VTO_0001038>))
 Declaration(Class(<https://w3id.org/pmd/vto/VTO_0001039>))
 Declaration(Class(<https://w3id.org/pmd/vto/VTO_0001041>))
+Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002001>))
+Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002002>))
+Declaration(Class(<https://w3id.org/pmd/vto/VTO_0002003>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000196>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000197>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000219>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000221>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000059>))
@@ -143,8 +139,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
-Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0020005>))
-Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0020022>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/HV5>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_indenter_angel_value>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_indenter_designation>))
@@ -156,17 +151,16 @@ Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_hardness_rang
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_loading_time_value>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_machine_designation>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_operator_identification>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_related_project>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_standard>))
+Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_temperature_value>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value>))
 Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_testing_date>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/HV5>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>))
-Declaration(NamedIndividual(<https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
@@ -195,26 +189,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
-
-# Class: <https://w3id.org/pmd/vto/VTO_0002001> (Vickers test piece chemical composition specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002001> "Vickers test piece chemical composition specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002001> "an information content entity that specifies the values of the chemical components of the material used for a Vickers test piece.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0002001> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002352> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
-SubClassOf(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/VTO_0001016>)
-
-# Class: <https://w3id.org/pmd/vto/VTO_0002002> (Vickers test piece material designation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002002> "Vickers test piece material designation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002002> "an identifier assigned to specify the material of a test piece used in a Vickers hardness test, like its name or ID")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0002002> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001014> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000059>) ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000975> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002352> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
-SubClassOf(<https://w3id.org/pmd/vto/VTO_0002002> <https://w3id.org/pmd/vto/VTO_0001014>)
-
-# Class: <https://w3id.org/pmd/vto/VTO_0002003> (Vickers test standard deviation hardness value)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002003> "Vickers test standard deviation hardness value"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002003> "a value specification that specifies the standard deviation of hardness values measured in a Vickers hardness test.")
-SubClassOf(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/VTO_0001041>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0000001> (vickers hardness)
 
@@ -384,11 +358,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0000030> "equation 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0000030> "A textual entity that represents mathematical or logical relationships using symbolic notation in text form.")
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0000030> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
-# Class: <https://w3id.org/pmd/vto/VTO_0000032> (date datum)
+# Class: <https://w3id.org/pmd/vto/VTO_0000032> (date value specification)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0000032> "date datum"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0000032> "date value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0000032> "A datum that represents a date or time interval associated with another specification.")
-SubClassOf(<https://w3id.org/pmd/vto/VTO_0000032> <http://purl.obolibrary.org/obo/IAO_0000416>)
+SubClassOf(<https://w3id.org/pmd/vto/VTO_0000032> <http://purl.obolibrary.org/obo/OBI_0001933>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0000033> (test piece preparation process)
 
@@ -480,7 +454,7 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0000046> <https://w3id.org/pmd/vto/VTO_
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001001> "indentation diagonal"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001001> "The straight-line distance between two opposite corners of an indentation made during a hardness test.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001001> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000197> <https://w3id.org/pmd/vto/VTO_0000008>)))
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001001> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://w3id.org/pmd/vto/VTO_0000008>)))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001001> <https://w3id.org/pmd/vto/VTO_0000004>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001002> (averaging process)
@@ -507,9 +481,9 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001005> "process e
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001005> "A material entity that surrounds or interacts with a process, influencing its conditions or outcomes, such as temperature, pressure, or atmosphere.")
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001005> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: <https://w3id.org/pmd/vto/VTO_0001006> (atmosphare)
+# Class: <https://w3id.org/pmd/vto/VTO_0001006> (atmosphere)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001006> "atmosphare"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001006> "atmosphere"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001006> "An environment consisting of gases that surround a material or process, affecting its physical or chemical behavior.")
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001006> <https://w3id.org/pmd/vto/VTO_0001005>)
 
@@ -523,14 +497,13 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0001007> <https://w3id.org/pmd/co/PMD_0
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001008> "Vickers test standard"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001008> "a standard that defines the procedures, conditions, and requirements for performing and evaluating the Vickers hardness test.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000059>) ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000014> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000055>) <https://w3id.org/pmd/vto/VTO_0000016>)))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001008> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001009> (Vickers testing date)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001009> "Vickers testing date"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001009> "a date datum that specifies when a Vickers hardness test was performed.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001009> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/vto/VTO_0000016>)))
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001009> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/vto/VTO_0000016>)))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001009> <https://w3id.org/pmd/vto/VTO_0000032>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001010> (project designation)
@@ -543,7 +516,6 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0001010> <https://nfdi.fiz-karlsruhe.de
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001011> "Vickers test related project"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001011> "a project designation that identifies the project associated with a specific Vickers hardness test.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001011> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000909> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <https://w3id.org/pmd/vto/VTO_0000016>)))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001011> <https://w3id.org/pmd/vto/VTO_0001010>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001012> (operator identification)
@@ -556,7 +528,6 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0001012> <http://purl.obolibrary.org/ob
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001013> "Vickers test operator identification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001013> "A textual entity intended to identify the operator who performed the Vickers hardness test.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001013> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001012> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000059>) ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000873> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001013> <https://w3id.org/pmd/vto/VTO_0001012>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001014> (test piece material designation)
@@ -621,14 +592,14 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0001024> <https://w3id.org/pmd/vto/VTO_
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001025> "Vickers indenter angel value"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001025> "a value specification that specifies the angle of the Vickers indenter.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000197> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000025> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0025999> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001025> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001026> (Vickers indenter material designation)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001026> "Vickers indenter material designation"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001026> "a material designation that identifies the material from which a Vickers hardness test indenter is made.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001026> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000000> ObjectSomeValuesFrom(ObjectInverseOf(<https://w3id.org/pmd/co/PMD_0020005>) ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001026> ObjectIntersectionOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001026> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001027> (object designation)
@@ -648,7 +619,7 @@ SubClassOf(<https://w3id.org/pmd/vto/VTO_0001028> <https://w3id.org/pmd/vto/VTO_
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001029> "Vickers test temperature value"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001029> "a value specification that specifies the temperature at which a Vickers hardness test is performed.")
-EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000967> ObjectSomeValuesFrom(ObjectInverseOf(<https://w3id.org/pmd/co/PMD_0020022>) ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001006> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://w3id.org/pmd/vto/VTO_0000016>)))))))))
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0001029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000967> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001006> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://w3id.org/pmd/vto/VTO_0000016>)))))))))
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001029> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/vto/VTO_0001030> (Vickers test force value)
@@ -717,10 +688,36 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0001041> "Vickers t
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0001041> "a value specification that specifies the hardness value from a Vickers hardness test.")
 SubClassOf(<https://w3id.org/pmd/vto/VTO_0001041> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
+# Class: <https://w3id.org/pmd/vto/VTO_0002001> (Vickers test piece chemical composition specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002001> "Vickers test piece chemical composition specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002001> "an information content entity that specifies the values of the chemical components of the material used for a Vickers test piece.")
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0002001> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002352> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
+SubClassOf(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/VTO_0001016>)
+
+# Class: <https://w3id.org/pmd/vto/VTO_0002002> (Vickers test piece material designation)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002002> "Vickers test piece material designation"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002002> "an identifier assigned to specify the material of a test piece used in a Vickers hardness test, like its name or ID")
+EquivalentClasses(<https://w3id.org/pmd/vto/VTO_0002002> ObjectIntersectionOf(<https://w3id.org/pmd/vto/VTO_0001014> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000059>) ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000975> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002352> <https://w3id.org/pmd/vto/VTO_0000016>)))))))
+SubClassOf(<https://w3id.org/pmd/vto/VTO_0002002> <https://w3id.org/pmd/vto/VTO_0001014>)
+
+# Class: <https://w3id.org/pmd/vto/VTO_0002003> (Vickers test standard deviation hardness value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/VTO_0002003> "Vickers test standard deviation hardness value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/vto/VTO_0002003> "a value specification that specifies the standard deviation of hardness values measured in a Vickers hardness test.")
+SubClassOf(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/VTO_0001041>)
+
 
 ############################
 #   Named Individuals
 ############################
+
+# Individual: <https://w3id.org/pmd/vto/HV5> (HV 5)
+
+AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/vto/HV5> "a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf).")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/HV5> "HV 5"@en)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001039> <https://w3id.org/pmd/vto/HV5>)
 
 # Individual: <https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation> (Vickers_certified_reference_material_designation)
 
@@ -788,11 +785,23 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_operator_i
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_operator_identification>)
 ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001013> <https://w3id.org/pmd/vto/Vickers_test_operator_identification>)
 
+# Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> (Vickers_test_piece_chemical_composition_specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> "Vickers_test_piece_chemical_composition_specification"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
+
 # Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value> (Vickers_test_piece_dimension_value)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value> "Vickers_test_piece_dimension_value"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value>)
 ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001021> <https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value>)
+
+# Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation> (Vickers_test_piece_material_designation)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation> "Vickers_test_piece_material_designation"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002002> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
 
 # Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification> (Vickers_test_piece_preparation_specification)
 
@@ -812,6 +821,12 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_standard> 
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_standard>)
 ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001008> <https://w3id.org/pmd/vto/Vickers_test_standard>)
 
+# Individual: <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> (Vickers_test_standard_deviation_hardness_value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> "Vickers_test_standard_deviation_hardness_value"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
+ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
+
 # Individual: <https://w3id.org/pmd/vto/Vickers_test_temperature_value> (Vickers_test_temperature_value)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_temperature_value> "Vickers_test_temperature_value"@en)
@@ -829,30 +844,6 @@ ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001035> <https://w3id.org/pmd/vto/
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_testing_date> "Vickers_testing_date"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_testing_date>)
 ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001009> <https://w3id.org/pmd/vto/Vickers_testing_date>)
-
-# Individual: <https://w3id.org/pmd/vto/HV5> (HV 5)
-
-AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/vto/HV5> "a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf).")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/HV5> "HV 5"@en)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0001039> <https://w3id.org/pmd/vto/HV5>)
-
-# Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation> (Vickers_test_piece_material_designation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation> "Vickers_test_piece_material_designation"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002002> <https://w3id.org/pmd/vto/Vickers_test_piece_material_designation>)
-
-# Individual: <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> (Vickers_test_piece_chemical_composition_specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification> "Vickers_test_piece_chemical_composition_specification"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002001> <https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification>)
-
-# Individual: <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> (Vickers_test_standard_deviation_hardness_value)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value> "Vickers_test_standard_deviation_hardness_value"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000030> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
-ClassAssertion(<https://w3id.org/pmd/vto/VTO_0002003> <https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value>)
 
 
 )

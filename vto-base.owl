@@ -15,7 +15,7 @@
         <owl:versionIRI rdf:resource="https://w3id.org/pmd/vto/3.0.0"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:bibliographicCitation>Hossein Beygi Nasrabadi and Jörg Waitelonis. Vickers Testing Ontology (VTO). Revision: v3.0.0. Retrieved from: https://materialdigital.github.io/vickers-testing-ontology/3.0.0</dcterms:bibliographicCitation>
-        <dcterms:created>2025-11-21</dcterms:created>
+        <dcterms:created>2025-12-09</dcterms:created>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <dcterms:creator>https://orcid.org/0000-0002-3092-0532</dcterms:creator>
         <dcterms:description>Vickers Test Ontology (VTO) has developed for representing the Vickers testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 6507-1 standard.</dcterms:description>
@@ -121,21 +121,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000197 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
     
 
 
@@ -154,6 +148,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058"/>
     
 
 
@@ -199,15 +199,9 @@
     
 
 
-    <!-- https://w3id.org/pmd/co/PMD_0020005 -->
+    <!-- https://w3id.org/pmd/co/PMD_0025999 -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020005"/>
-    
-
-
-    <!-- https://w3id.org/pmd/co/PMD_0020022 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020022"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0025999"/>
     
 
 
@@ -288,21 +282,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000590"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     
 
 
@@ -318,6 +300,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    
+
+
     <!-- http://purls.helmholtz-metadaten.de/mwo/MWO_0001099 -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/mwo/MWO_0001099"/>
@@ -330,33 +318,15 @@
     
 
 
-    <!-- https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification"/>
-    
-
-
-    <!-- https://w3id.org/pmd/Vickers_test_piece_material_designation -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/Vickers_test_piece_material_designation"/>
-    
-
-
-    <!-- https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value"/>
-    
-
-
     <!-- https://w3id.org/pmd/co/PMD_0000000 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000000"/>
     
 
 
-    <!-- https://w3id.org/pmd/co/PMD_0000014 -->
+    <!-- https://w3id.org/pmd/co/PMD_0000551 -->
 
-    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000014"/>
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000551"/>
     
 
 
@@ -396,18 +366,6 @@
     
 
 
-    <!-- https://w3id.org/pmd/co/PMD_0000873 -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000873"/>
-    
-
-
-    <!-- https://w3id.org/pmd/co/PMD_0000909 -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000909"/>
-    
-
-
     <!-- https://w3id.org/pmd/co/PMD_0000967 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000967"/>
@@ -435,6 +393,12 @@
     <!-- https://w3id.org/pmd/co/PMD_0020200 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0020200"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0025002 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0025002"/>
     
 
 
@@ -793,8 +757,8 @@
     <!-- https://w3id.org/pmd/vto/VTO_0000032 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <rdfs:label xml:lang="en">date datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <rdfs:label xml:lang="en">date value specification</rdfs:label>
         <skos:definition>A datum that represents a date or time interval associated with another specification.</skos:definition>
     </owl:Class>
     
@@ -946,7 +910,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0000004"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                         <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000008"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -955,7 +919,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1009,7 +973,7 @@
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0001006">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001005"/>
-        <rdfs:label xml:lang="en">atmosphare</rdfs:label>
+        <rdfs:label xml:lang="en">atmosphere</rdfs:label>
         <skos:definition>An environment consisting of gases that surround a material or process, affecting its physical or chemical behavior.</skos:definition>
     </owl:Class>
     
@@ -1028,60 +992,7 @@
     <!-- https://w3id.org/pmd/vto/VTO_0001008 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0001008">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
-                    <owl:Restriction>
-                        <owl:onProperty>
-                            <rdf:Description>
-                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                            </rdf:Description>
-                        </owl:onProperty>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000014"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
-                                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                    </rdf:Description>
-                </owl:onProperty>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000014"/>
-                            <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
-                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vickers test standard</rdfs:label>
         <skos:definition>a standard that defines the procedures, conditions, and requirements for performing and evaluating the Vickers hardness test.</skos:definition>
     </owl:Class>
@@ -1096,7 +1007,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0000032"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1105,7 +1016,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1128,44 +1039,7 @@
     <!-- https://w3id.org/pmd/vto/VTO_0001011 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0001011">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0001010"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000909"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
-                                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001010"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000909"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
-                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vickers test related project</rdfs:label>
         <skos:definition>a project designation that identifies the project associated with a specific Vickers hardness test.</skos:definition>
     </owl:Class>
@@ -1185,72 +1059,7 @@
     <!-- https://w3id.org/pmd/vto/VTO_0001013 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0001013">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0001012"/>
-                    <owl:Restriction>
-                        <owl:onProperty>
-                            <rdf:Description>
-                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                            </rdf:Description>
-                        </owl:onProperty>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000873"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                    </rdf:Description>
-                </owl:onProperty>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000873"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vickers test operator identification</rdfs:label>
         <skos:definition>A textual entity intended to identify the operator who performed the Vickers hardness test.</skos:definition>
     </owl:Class>
@@ -1585,7 +1394,7 @@
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0000025"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                                        <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0025999"/>
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1614,7 +1423,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0000025"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0025999"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1652,11 +1461,7 @@
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000000"/>
                                     <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="https://w3id.org/pmd/co/PMD_0020005"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1685,11 +1490,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000000"/>
                             <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="https://w3id.org/pmd/co/PMD_0020005"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1812,11 +1613,7 @@
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000967"/>
                                     <owl:Restriction>
-                                        <owl:onProperty>
-                                            <rdf:Description>
-                                                <owl:inverseOf rdf:resource="https://w3id.org/pmd/co/PMD_0020022"/>
-                                            </rdf:Description>
-                                        </owl:onProperty>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1859,11 +1656,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000967"/>
                             <owl:Restriction>
-                                <owl:onProperty>
-                                    <rdf:Description>
-                                        <owl:inverseOf rdf:resource="https://w3id.org/pmd/co/PMD_0020022"/>
-                                    </rdf:Description>
-                                </owl:onProperty>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2291,6 +2084,159 @@
     
 
 
+    <!-- https://w3id.org/pmd/vto/VTO_0002001 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0001016"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000551"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                                                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0025002"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000551"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Vickers test piece chemical composition specification</rdfs:label>
+        <skos:definition>an information content entity that specifies the values of the chemical components of the material used for a Vickers test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/VTO_0002002 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/vto/VTO_0001014"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000975"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                                                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000975"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/vto/VTO_0000016"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Vickers test piece material designation</rdfs:label>
+        <skos:definition>an identifier assigned to specify the material of a test piece used in a Vickers hardness test, like its name or ID</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/VTO_0002003 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/vto/VTO_0002003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/vto/VTO_0001041"/>
+        <rdfs:label xml:lang="en">Vickers test standard deviation hardness value</rdfs:label>
+        <skos:definition>a value specification that specifies the standard deviation of hardness values measured in a Vickers hardness test.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2302,9 +2248,9 @@
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001040 -->
+    <!-- https://w3id.org/pmd/vto/HV5 -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001040">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/HV5">
         <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001039"/>
         <rdfs:comment>a Vickers hardness unit label that indicates a hardness value measured in a Vickers hardness test using a test force greater than 49.03 N (5 kgf).</rdfs:comment>
         <rdfs:label xml:lang="en">HV 5</rdfs:label>
@@ -2312,32 +2258,212 @@
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001045 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001045">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_certified_reference_material_designation">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdf:type rdf:resource="https://w3id.org/pmd/Vickers_test_piece_material_designation"/>
-        <rdfs:label xml:lang="en">Vickers_test_piece_material_designation</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001028"/>
+        <rdfs:label xml:lang="en">Vickers_certified_reference_material_designation</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001046 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_angel_value -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001046">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_angel_value">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdf:type rdf:resource="https://w3id.org/pmd/Vickers_test_piece_chemical_composition_specification"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001025"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_angel_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_designation">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001024"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_indenter_material_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_indenter_material_designation">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001026"/>
+        <rdfs:label xml:lang="en">Vickers_indenter_material_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_average_diagonal_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_average_diagonal_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001033"/>
+        <rdfs:label xml:lang="en">Vickers_test_average_diagonal_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_average_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_average_hardness_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001032"/>
+        <rdfs:label xml:lang="en">Vickers_test_average_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_force_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_force_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001030"/>
+        <rdfs:label xml:lang="en">Vickers_test_force_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_hardness_range_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_hardness_range_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001036"/>
+        <rdfs:label xml:lang="en">Vickers_test_hardness_range_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_loading_time_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_loading_time_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001031"/>
+        <rdfs:label xml:lang="en">Vickers_test_loading_time_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_machine_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_machine_designation">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001023"/>
+        <rdfs:label xml:lang="en">Vickers_test_machine_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_operator_identification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_operator_identification">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001013"/>
+        <rdfs:label xml:lang="en">Vickers_test_operator_identification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_chemical_composition_specification">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002001"/>
         <rdfs:label xml:lang="en">Vickers_test_piece_chemical_composition_specification</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/pmd/vto/VTO_0001059 -->
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/VTO_0001059">
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_dimension_value">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdf:type rdf:resource="https://w3id.org/pmd/Vickers_test_standard_deviation_hardness_value"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001021"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_dimension_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_material_designation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_material_designation">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002002"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_material_designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_piece_preparation_specification">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001019"/>
+        <rdfs:label xml:lang="en">Vickers_test_piece_preparation_specification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_related_project -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_related_project">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001011"/>
+        <rdfs:label xml:lang="en">Vickers_test_related_project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_standard -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_standard">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001008"/>
+        <rdfs:label xml:lang="en">Vickers_test_standard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_standard_deviation_hardness_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0002003"/>
         <rdfs:label xml:lang="en">Vickers_test_standard_deviation_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_temperature_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_temperature_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001029"/>
+        <rdfs:label xml:lang="en">Vickers_test_temperature_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_test_uncertainty_hardness_value">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001035"/>
+        <rdfs:label xml:lang="en">Vickers_test_uncertainty_hardness_value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/vto/Vickers_testing_date -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/vto/Vickers_testing_date">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="https://w3id.org/pmd/vto/VTO_0001009"/>
+        <rdfs:label xml:lang="en">Vickers_testing_date</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
